@@ -29,19 +29,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/neusoft/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatisday01_02_annotation/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.18625" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SSM\Java_ssm_learn\mybatisday01_02_annotation\src\main\resources" />
+      <recent name="D:\SSM\Java_ssm_learn\mybatisday01_02_annotation\src\main\java\com\neusoft" />
+      <recent name="D:\SSM\Java_ssm_learn\mybatisday01_02_annotation\src\main\java" />
       <recent name="D:\SSM\Java_ssm_learn\mybatisday01_01_quick_start\src\main\resources\com\neusoft\dao" />
       <recent name="D:\SSM\Java_ssm_learn\mybatisday01_01_quick_start\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest1">
+  <component name="RunManager" selected="JUnit.MybatisTest2.test1">
     <configuration name="MybatisTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisday01_01_quick_start" />
       <extension name="coverage">
@@ -53,6 +59,22 @@
       <option name="PACKAGE_NAME" value="com.neusoft.test" />
       <option name="MAIN_CLASS_NAME" value="com.neusoft.test.MybatisTest1" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest1.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_02_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,8 +95,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MybatisTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_02_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest2.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_02_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest2" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest2.test1" />
+        <item itemvalue="JUnit.MybatisTest2" />
+        <item itemvalue="JUnit.MybatisTest1.test1 (1)" />
         <item itemvalue="JUnit.MybatisTest1" />
         <item itemvalue="JUnit.MybatisTest1.test1" />
       </list>
@@ -104,6 +160,7 @@
       <updated>1599095389880</updated>
       <workItem from="1599095393183" duration="5771000" />
       <workItem from="1599103042346" duration="1635000" />
+      <workItem from="1599113178464" duration="3517000" />
     </task>
     <servers />
   </component>
@@ -123,30 +180,42 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="885" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1599098485450" />
-    <state width="1396" height="299" key="GridCell.Tab.0.bottom" timestamp="1599108685765">
+    <state x="686" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599113686207">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="299" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599108685765" />
-    <state width="1396" height="299" key="GridCell.Tab.0.center" timestamp="1599108685765">
+    <state x="686" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1599113686207" />
+    <state x="834" y="317" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599114739779">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="299" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599108685765" />
-    <state width="1396" height="299" key="GridCell.Tab.0.left" timestamp="1599108685765">
+    <state x="834" y="317" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.860@0.0.1440.860" timestamp="1599114739779" />
+    <state width="660" height="291" key="GridCell.Tab.0.bottom" timestamp="1599115397278">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="299" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599108685765" />
-    <state width="1396" height="299" key="GridCell.Tab.0.right" timestamp="1599108685765">
+    <state width="660" height="291" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599115397278" />
+    <state width="660" height="291" key="GridCell.Tab.0.center" timestamp="1599115397278">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="299" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599108685765" />
-    <state x="-207" y="101" key="SettingsEditor" timestamp="1599100203223">
+    <state width="660" height="291" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599115397278" />
+    <state width="660" height="291" key="GridCell.Tab.0.left" timestamp="1599115397277">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="-207" y="101" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1599100203223" />
-    <state x="400" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1599103089915">
+    <state width="660" height="291" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599115397277" />
+    <state width="660" height="291" key="GridCell.Tab.0.right" timestamp="1599115397278">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="400" y="252" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1599103089915" />
+    <state width="660" height="291" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599115397278" />
+    <state x="304" y="7" key="SettingsEditor" timestamp="1599114797942">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="304" y="7" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1599114797942" />
+    <state x="400" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1599113176199">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="400" y="252" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1599113176199" />
+    <state x="181" y="116" key="new project wizard" timestamp="1599113584010">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="181" y="116" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1599113584010" />
     <state x="736" y="190" key="run.anything.popup" timestamp="1599099443743">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
