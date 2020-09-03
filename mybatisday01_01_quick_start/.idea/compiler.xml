@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Day01_exercise" />
         <module name="mybatisday01_02_annotation" />
         <module name="mybatisday01_01_quick_start" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
-      <module name="mybatisday01_01_quick_start" target="11" />
+      <module name="Day01_exercise" target="11" />
+      <module name="mybatisday01_01_quick_start" target="1.5" />
       <module name="mybatisday01_02_annotation" target="11" />
     </bytecodeTargetLevel>
   </component>
