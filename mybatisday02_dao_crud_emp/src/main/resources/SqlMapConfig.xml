@@ -6,7 +6,7 @@
 <configuration>
 
     <typeAliases>
-        <typeAlias type="EMP.domain.User" alias="user"></typeAlias>
+<!--        <typeAlias type="EMP.domain.User" alias="user"></typeAlias>-->
         <package name="EMP.domain"/>
     </typeAliases>
     <!-- 配置环境 -->

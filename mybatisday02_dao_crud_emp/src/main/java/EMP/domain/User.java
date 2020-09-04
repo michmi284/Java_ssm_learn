@@ -5,107 +5,107 @@ import java.util.Date;
 
 public class User implements Serializable
 {
-    private int EMPNO;
-    private String ENAME;
-    private String JOB;
-    private int MGR;
-    private Date HIREDATE;
-    private int SAL;
-    private int COMM;
-    private int DEPTNO;
+    private int num;
+    private String name;
+    private String work;
+    private int mgr;
+    private Date date;
+    private int salary;
+    private int com;
+    private int dep;
 
-    public int getEMPNO()
+    public int getNum()
     {
-        return EMPNO;
+        return num;
     }
 
-    public void setEMPNO(int EMPNO)
+    public void setNum(int num)
     {
-        this.EMPNO = EMPNO;
+        this.num = num;
     }
 
-    public String getENAME()
+    public String getName()
     {
-        return ENAME;
+        return name;
     }
 
-    public void setENAME(String ENAME)
+    public void setName(String name)
     {
-        this.ENAME = ENAME;
+        this.name = name;
     }
 
-    public String getJOB()
+    public String getWork()
     {
-        return JOB;
+        return work;
     }
 
-    public void setJOB(String JOB)
+    public void setWork(String work)
     {
-        this.JOB = JOB;
+        this.work = work;
     }
 
-    public int getMGR()
+    public int getMgr()
     {
-        return MGR;
+        return mgr;
     }
 
-    public void setMGR(int MGR)
+    public void setMgr(int mgr)
     {
-        this.MGR = MGR;
+        this.mgr = mgr;
     }
 
-    public Date getHIREDATE()
+    public Date getDate()
     {
-        return HIREDATE;
+        return date;
     }
 
-    public void setHIREDATE(Date HIREDATE)
+    public void setDate(Date date)
     {
-        this.HIREDATE = HIREDATE;
+        this.date = date;
     }
 
-    public int getSAL()
+    public int getSalary()
     {
-        return SAL;
+        return salary;
     }
 
-    public void setSAL(int SAL)
+    public void setSalary(int salary)
     {
-        this.SAL = SAL;
+        this.salary = salary;
     }
 
-    public int getCOMM()
+    public int getCom()
     {
-        return COMM;
+        return com;
     }
 
-    public void setCOMM(int COMM)
+    public void setCom(int com)
     {
-        this.COMM = COMM;
+        this.com = com;
     }
 
-    public int getDEPTNO()
+    public int getDep()
     {
-        return DEPTNO;
+        return dep;
     }
 
-    public void setDEPTNO(int DEPTNO)
+    public void setDep(int dep)
     {
-        this.DEPTNO = DEPTNO;
+        this.dep = dep;
     }
 
     @Override
     public String toString()
     {
         return "User{" +
-                "EMPNO=" + EMPNO +
-                ", ENAME='" + ENAME + '\'' +
-                ", JOB='" + JOB + '\'' +
-                ", MGR=" + MGR +
-                ", HIREDATE=" + HIREDATE +
-                ", SAL=" + SAL +
-                ", COMM=" + COMM +
-                ", DEPTNO=" + DEPTNO +
+                "num=" + num +
+                ", name='" + name + '\'' +
+                ", work='" + work + '\'' +
+                ", mgr=" + mgr +
+                ", date=" + date +
+                ", salary=" + salary +
+                ", com=" + com +
+                ", dep=" + dep +
                 '}';
     }
 }

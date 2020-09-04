@@ -5,14 +5,14 @@
 <mapper namespace="EMP.dao.IUserDao">
 
     <resultMap id="userMap" type="EMP.domain.User">
-        <id property="EMPNO" column="EMPNO"></id>
-        <result property="ENAME" column="ENAME"></result>
-        <result property="JOB" column="JOB"></result>
-        <result property="MGR" column="MGR"></result>
-        <result property="HIREDATE" column="HIREDATE"></result>
-        <result property="SAL" column="SAL"></result>
-        <result property="COMM" column="COMM"></result>
-        <result property="DEPTNO" column="DEPTNO"></result>
+        <id property="num" column="EMPNO"></id>
+        <result property="name" column="ENAME"></result>
+        <result property="work" column="JOB"></result>
+        <result property="mgr" column="MGR"></result>
+        <result property="date" column="HIREDATE"></result>
+        <result property="salary" column="SAL"></result>
+        <result property="com" column="COMM"></result>
+        <result property="dep" column="DEPTNO"></result>
     </resultMap>
 
     <select id="findAll" resultMap="userMap">

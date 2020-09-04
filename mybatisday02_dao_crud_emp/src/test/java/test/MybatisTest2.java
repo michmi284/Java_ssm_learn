@@ -62,37 +62,37 @@ public class MybatisTest2
         System.out.println(user);
     }
 
-    @Test
-    public void testInsertUser()
-    {
-        User user = new User();
-        user.setEMPNO(33333);
-        user.setENAME("陈");
-        user.setJOB("MAGE");
-        user.setMGR(3333);
-        user.setHIREDATE(new Date());
-        user.setSAL(33333);
-        user.setCOMM(33333);
-        user.setDEPTNO(33333);
-
-        userDao.insertUser(user);
-    }
-
-    @Test
-    public void testUpdateUser()
-    {
-        User user = new User();
-        user.setEMPNO(22222);
-        user.setENAME("米波");
-        user.setJOB("paladin");
-        user.setMGR(1111);
-        user.setHIREDATE(new Date());
-        user.setSAL(11111);
-        user.setCOMM(11111);
-        user.setDEPTNO(11111);
-
-        userDao.updateUser(user);
-    }
+//    @Test
+//    public void testInsertUser()
+//    {
+//        User user = new User();
+//        user.setEMPNO(44444);
+//        user.setENAME("大地之灵");
+//        user.setJOB("WARRIOR");
+//        user.setMGR(4444);
+//        user.setHIREDATE(new Date());
+//        user.setSAL(44444);
+//        user.setCOMM(44444);
+//        user.setDEPTNO(44444);
+//
+//        userDao.insertUser(user);
+//    }
+//
+//    @Test
+//    public void testUpdateUser()
+//    {
+//        User user = new User();
+//        user.setEMPNO(22222);
+//        user.setENAME("米波");
+//        user.setJOB("paladin");
+//        user.setMGR(1111);
+//        user.setHIREDATE(new Date());
+//        user.setSAL(11111);
+//        user.setCOMM(11111);
+//        user.setDEPTNO(11111);
+//
+//        userDao.updateUser(user);
+//    }
 
     @Test
     public void testDeleteUser()
