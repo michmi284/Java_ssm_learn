@@ -58,7 +58,7 @@ public class MybatisTest2
     @Test
     public void testFIndById()
     {
-        User user = userDao.findById(7369);
+        User user = userDao.findById(7499);
         System.out.println(user);
     }
 
@@ -66,14 +66,14 @@ public class MybatisTest2
     public void testInsertUser()
     {
         User user = new User();
-        user.setEMPNO(88888);
-        user.setENAME("卡尔");
+        user.setEMPNO(33333);
+        user.setENAME("陈");
         user.setJOB("MAGE");
-        user.setMGR(8888);
+        user.setMGR(3333);
         user.setHIREDATE(new Date());
-        user.setSAL(88888);
-        user.setCOMM(88888);
-        user.setDEPTNO(88888);
+        user.setSAL(33333);
+        user.setCOMM(33333);
+        user.setDEPTNO(33333);
 
         userDao.insertUser(user);
     }
@@ -82,14 +82,14 @@ public class MybatisTest2
     public void testUpdateUser()
     {
         User user = new User();
-        user.setEMPNO(99999);
+        user.setEMPNO(22222);
         user.setENAME("米波");
         user.setJOB("paladin");
-        user.setMGR(7777);
+        user.setMGR(1111);
         user.setHIREDATE(new Date());
-        user.setSAL(77777);
-        user.setCOMM(77777);
-        user.setDEPTNO(77777);
+        user.setSAL(11111);
+        user.setCOMM(11111);
+        user.setDEPTNO(11111);
 
         userDao.updateUser(user);
     }
@@ -103,7 +103,7 @@ public class MybatisTest2
     @Test
     public void testFindLikeName()
     {
-        List<User> users = userDao.findLikeName("A%");
+        List<User> users = userDao.findLikeName("M%");
         System.out.println(users);
     }
 @Test

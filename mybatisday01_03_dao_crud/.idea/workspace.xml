@@ -41,8 +41,8 @@
       <recent name="D:\SSM\Java_ssm_learn\mybatisday02_dao_crud_emp\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest2.testCount">
-    <configuration name="MybatisTest2.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MybatisTest2.testUpdateUser">
+    <configuration name="MybatisTest2.testFIndById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisday02_dao_crud_emp" />
       <extension name="coverage">
         <pattern>
@@ -52,13 +52,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.MybatisTest2" />
-      <option name="METHOD_NAME" value="testCount" />
+      <option name="METHOD_NAME" value="testFIndById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest2.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest2.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisday02_dao_crud_emp" />
       <extension name="coverage">
         <pattern>
@@ -68,7 +68,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.MybatisTest2" />
-      <option name="METHOD_NAME" value="testDeleteUser" />
+      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest2.testCount" />
-        <item itemvalue="JUnit.MybatisTest2.testFindLikeName" />
-        <item itemvalue="JUnit.MybatisTest2.testDeleteUser" />
         <item itemvalue="JUnit.MybatisTest2.testUpdateUser" />
         <item itemvalue="JUnit.MybatisTest2.testInsertUser" />
+        <item itemvalue="JUnit.MybatisTest2.testFindLikeName" />
+        <item itemvalue="JUnit.MybatisTest2.testFIndById" />
+        <item itemvalue="JUnit.MybatisTest2.testFindAll" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599185123836</updated>
-      <workItem from="1599185127456" duration="9640000" />
+      <workItem from="1599185127456" duration="13507000" />
     </task>
     <servers />
   </component>
@@ -174,22 +174,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1599189386101" />
-    <state width="1396" height="218" key="GridCell.Tab.0.bottom" timestamp="1599199004492">
+    <state width="660" height="218" key="GridCell.Tab.0.bottom" timestamp="1599205052380">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599199004492" />
-    <state width="1396" height="218" key="GridCell.Tab.0.center" timestamp="1599199004491">
+    <state width="660" height="218" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599205052380" />
+    <state width="660" height="218" key="GridCell.Tab.0.center" timestamp="1599205052380">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599199004491" />
-    <state width="1396" height="218" key="GridCell.Tab.0.left" timestamp="1599199004491">
+    <state width="660" height="218" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599205052380" />
+    <state width="660" height="218" key="GridCell.Tab.0.left" timestamp="1599205052379">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599199004491" />
-    <state width="1396" height="218" key="GridCell.Tab.0.right" timestamp="1599199004492">
+    <state width="660" height="218" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599205052379" />
+    <state width="660" height="218" key="GridCell.Tab.0.right" timestamp="1599205052380">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599199004492" />
+    <state width="660" height="218" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599205052380" />
     <state x="250" y="84" key="Maven.ArtifactSearchDialog" timestamp="1599185235505">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
