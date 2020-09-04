@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mybatisday01_03_dao_crud.iml" filepath="$PROJECT_DIR$/mybatisday01_03_dao_crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mybatisday02_dao_crud_emp/mybatisday02_dao_crud_emp.iml" filepath="$PROJECT_DIR$/../mybatisday02_dao_crud_emp/mybatisday02_dao_crud_emp.iml" />
     </modules>
   </component>
 </project>

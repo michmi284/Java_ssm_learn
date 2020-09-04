@@ -5,7 +5,8 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
-public interface IUserDao {
+public interface IUserDao
+{
 //    // 查询所有
 //    List<User> findAll();
 //    /**
@@ -34,20 +35,19 @@ public interface IUserDao {
 //     */
 //    int findTotal();
 
-List<User>findAll();
+    List<User> findAll();
 
-User findById(Integer id);
+    User findById(Integer id);
 
-int saveUser(User user);
+    int saveUser(User user);
 
-int updateUser(User user);
+    int updateUser(User user);
 
-int deleteUser(Integer id);
+    int deleteUser(Integer id);
 
-List<User>findName(String username);
+    List<User> findName(String username);
 
-int findTotal();
-
+    int findTotal();
 
 
 }

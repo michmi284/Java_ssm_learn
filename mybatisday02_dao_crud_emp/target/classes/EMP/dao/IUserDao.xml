@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="EMP.dao.IUserDao">
+
+    <select id="findAll" resultType="EMP.domain.User">
+    select * from emp
+</select>
+
+    <select id="findById" parameterType="INT" resultType="EMP.domain.User">
+        select * from emp where EMPNO = #{EMPNO}
+    </select>
+
+    <insert id="insertUser" parameterType="EMP.domain.User">
+        <selectKey keyColumn="EMPNO" keyProperty="EMPNO" resultType="INT">
+            select last_insert_id();
+        </selectKey>
+        insert into emp(EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO)
+        values (#{EMPNO},#{ENAME},#{JOB},#{MGR},#{HIREDATE},#{SAL},#{COMM},#{DEPTNO})
+    </insert>
+
+    <update id="updateUser" parameterType="EMP.domain.User">
+    update emp set EMPNO = #{EMPNO},ENAME = #{ENAME},
+    JOB = #{JOB},MGR = #{MGR},
+    HIREDATE = #{HIREDATE},SAL = #{SAL},
+    COMM = #{COMM},DEPTNO = #{DEPTNO}
+    where EMPNO = #{EMPNO}
+</update>
+
+    <delete id="deleteUser" parameterType="EMP.domain.User">
+    delete from emp where EMPNO=#{EMPNO}
+</delete>
+
+    <select id="findLikeName" parameterType="java.lang.String" resultType="EMP.domain.User">
+    select * from emp where ENAME like #{ENAME}
+</select>
+
+    <select id="count" resultType="INT">
+    select count(*) from emp
+</select>
+
+
+</mapper>

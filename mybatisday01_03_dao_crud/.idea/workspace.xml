@@ -7,6 +7,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -21,15 +29,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatisday02_dao_crud_emp/src/main/resources/EMP/dao" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest1.testFindTotal">
-    <configuration name="MybatisTest1.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisday01_03_dao_crud" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SSM\Java_ssm_learn\mybatisday02_dao_crud_emp\src\main\resources\EMP\dao" />
+      <recent name="D:\SSM\Java_ssm_learn\mybatisday02_dao_crud_emp\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisTest2.testCount">
+    <configuration name="MybatisTest2.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday02_dao_crud_emp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -37,15 +51,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
-      <option name="METHOD_NAME" value="testDelete" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest2" />
+      <option name="METHOD_NAME" value="testCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest1.testFindName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisday01_03_dao_crud" />
+    <configuration name="MybatisTest2.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday02_dao_crud_emp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -53,15 +67,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
-      <option name="METHOD_NAME" value="testFindName" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest2" />
+      <option name="METHOD_NAME" value="testDeleteUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest1.testFindTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisday01_03_dao_crud" />
+    <configuration name="MybatisTest2.testFindLikeName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday02_dao_crud_emp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -69,15 +83,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
-      <option name="METHOD_NAME" value="testFindTotal" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest2" />
+      <option name="METHOD_NAME" value="testFindLikeName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest1.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisday01_03_dao_crud" />
+    <configuration name="MybatisTest2.testInsertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday02_dao_crud_emp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -85,15 +99,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
-      <option name="METHOD_NAME" value="testSave" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest2" />
+      <option name="METHOD_NAME" value="testInsertUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest1.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisday01_03_dao_crud" />
+    <configuration name="MybatisTest2.testUpdateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday02_dao_crud_emp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -101,8 +115,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
-      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest2" />
+      <option name="METHOD_NAME" value="testUpdateUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest1.testFindTotal" />
-        <item itemvalue="JUnit.MybatisTest1.testFindName" />
-        <item itemvalue="JUnit.MybatisTest1.testDelete" />
-        <item itemvalue="JUnit.MybatisTest1.testUpdate" />
-        <item itemvalue="JUnit.MybatisTest1.testSave" />
+        <item itemvalue="JUnit.MybatisTest2.testCount" />
+        <item itemvalue="JUnit.MybatisTest2.testFindLikeName" />
+        <item itemvalue="JUnit.MybatisTest2.testDeleteUser" />
+        <item itemvalue="JUnit.MybatisTest2.testUpdateUser" />
+        <item itemvalue="JUnit.MybatisTest2.testInsertUser" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599185123836</updated>
-      <workItem from="1599185127456" duration="4014000" />
+      <workItem from="1599185127456" duration="9640000" />
     </task>
     <servers />
   </component>
@@ -148,26 +162,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1599185279623">
+    <state x="885" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1599195293569">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1599185279623" />
-    <state width="1396" height="218" key="GridCell.Tab.0.bottom" timestamp="1599189149241">
+    <state x="885" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1599195293569" />
+    <state x="525" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599195330732">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599189149241" />
-    <state width="1396" height="218" key="GridCell.Tab.0.center" timestamp="1599189149241">
+    <state x="525" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1599195330732" />
+    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1599189386101">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599189149241" />
-    <state width="1396" height="218" key="GridCell.Tab.0.left" timestamp="1599189149241">
+    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1599189386101" />
+    <state width="1396" height="218" key="GridCell.Tab.0.bottom" timestamp="1599199004492">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599189149241" />
-    <state width="1396" height="218" key="GridCell.Tab.0.right" timestamp="1599189149241">
+    <state width="1396" height="218" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599199004492" />
+    <state width="1396" height="218" key="GridCell.Tab.0.center" timestamp="1599199004491">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599189149241" />
+    <state width="1396" height="218" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599199004491" />
+    <state width="1396" height="218" key="GridCell.Tab.0.left" timestamp="1599199004491">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="218" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599199004491" />
+    <state width="1396" height="218" key="GridCell.Tab.0.right" timestamp="1599199004492">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="218" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599199004492" />
     <state x="250" y="84" key="Maven.ArtifactSearchDialog" timestamp="1599185235505">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -176,5 +198,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="200" y="3" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1599185326370" />
+    <state x="160" y="119" key="new project wizard" timestamp="1599189349744">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="160" y="119" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1599189349744" />
   </component>
 </project>
