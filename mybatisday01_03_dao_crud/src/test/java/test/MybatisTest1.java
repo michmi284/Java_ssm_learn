@@ -41,74 +41,133 @@ public class MybatisTest1 {
         sqlSession.close();
         in.close();
     }
+//    @Test
+//    public void testFindAll(){
+//        List<User> users = userDao.findAll();
+//        for (User user : users){
+//            System.out.println(user);
+//        }
+//    }
+//
+//    @Test
+//    public void testFindOne(){
+//        User user = userDao.findById(45);
+//
+//         System.out.println(user);
+//
+//    }
+//    @Test
+//    public void testSave(){
+//        // 注意要提交事物
+//        User user = new User();
+//        user.setUsername("剑圣");
+//        user.setBirthday(new Date());
+//        user.setSex("男");
+//        user.setAddress("War3");
+//
+//        System.out.println("保存之前"+ user);
+//        int i = userDao.savaUser(user);
+//        System.out.println("影响的行数" + i);
+//        System.out.println("保存之后"+user);
+//        System.out.println(user.getId());
+//
+//    }
+//
+//
+//    @Test
+//    public void testUpdate(){
+//        // 注意要提交事物
+//        User user = new User();
+//        user.setId(49);
+//        user.setUsername("斯温");
+//        user.setBirthday(new Date());
+//        user.setSex("男");
+//        user.setAddress("Dota");
+//
+//        System.out.println("更新之前"+ user);
+//        int i = userDao.updateUser(user);
+//        System.out.println("影响的行数" + i);
+//
+//    }
+//
+//
+//    @Test
+//    public void testDelete(){
+//        int res = userDao.deleteUser(48);
+//        System.out.println("res"+ res);
+//    }
+//
+//    @Test
+//    public void testLikeName(){
+//        List<User> users = userDao.findByName("%李%");
+//        for(User user: users){
+//            System.out.println(user);
+//        }
+//    }
+//
+//    @Test
+//    public void testCount(){
+//        int total = userDao.findTotal();
+//        System.out.println(total);
+//    }
+
     @Test
-    public void testFindAll(){
-        List<User> users = userDao.findAll();
-        for (User user : users){
+    public void testFindAll()
+    {
+        List<User>users = userDao.findAll();
+        for (User user :
+                users)
+        {
             System.out.println(user);
         }
     }
-
     @Test
-    public void testFindOne(){
-        User user = userDao.findById(45);
-
-         System.out.println(user);
-
+    public void testFindById()
+    {
+        User user = userDao.findById(49);
+        System.out.println(user);
     }
-    @Test
-    public void testSave(){
-        // 注意要提交事物
-        User user = new User();
-        user.setUsername("剑圣");
-        user.setBirthday(new Date());
-        user.setSex("男");
-        user.setAddress("War3");
+@Test
+    public void testSave()
+{
+    User user = new User();
+    user.setUsername("艾欧");
+    user.setSex("男");
+    user.setBirthday(new Date());
+    user.setAddress("Dota");
 
-        System.out.println("保存之前"+ user);
-        int i = userDao.savaUser(user);
-        System.out.println("影响的行数" + i);
-        System.out.println("保存之后"+user);
-        System.out.println(user.getId());
-
-    }
-
-
-    @Test
-    public void testUpdate(){
-        // 注意要提交事物
-        User user = new User();
-        user.setId(49);
-        user.setUsername("斯温");
-        user.setBirthday(new Date());
-        user.setSex("男");
-        user.setAddress("Dota");
-
-        System.out.println("更新之前"+ user);
-        int i = userDao.updateUser(user);
-        System.out.println("影响的行数" + i);
-
-    }
-
-
-    @Test
-    public void testDelete(){
-        int res = userDao.deleteUser(48);
-        System.out.println("res"+ res);
-    }
-
-    @Test
-    public void testLikeName(){
-        List<User> users = userDao.findByName("%李%");
-        for(User user: users){
-            System.out.println(user);
-        }
-    }
-
-    @Test
-    public void testCount(){
-        int total = userDao.findTotal();
-        System.out.println(total);
-    }
-
+//    System.out.println("保存之前"+ user);
+        userDao.saveUser(user);
+//        System.out.println("影响的行数" + i);
+//        System.out.println("保存之后"+user);
+//        System.out.println(user.getId());
+}
+@Test
+    public void testUpdate()
+{
+    User user = new User();
+    user.setUsername("伊利丹");
+    user.setSex("男");
+    user.setBirthday(new Date());
+    user.setAddress("warCraft");
+    user.setId(52);
+    userDao.updateUser(user);
+}
+@Test
+    public void testDelete()
+{
+    userDao.deleteUser(52);
+}
+@Test
+    public void testFindName()
+{
+    List<User>test = userDao.findName("%李%");
+    System.out.println(test);
+}
+@Test
+    public void testFindTotal()
+{
+    int a = userDao.findTotal();
+    System.out.println(a);
+}
 }

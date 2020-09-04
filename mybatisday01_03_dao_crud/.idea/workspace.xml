@@ -27,8 +27,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest1.testUpdate">
-    <configuration name="MybatisTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MybatisTest1.testFindTotal">
+    <configuration name="MybatisTest1.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisday01_03_dao_crud" />
       <extension name="coverage">
         <pattern>
@@ -38,7 +38,56 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest1.testFindName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
+      <option name="METHOD_NAME" value="testFindName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest1.testFindTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
+      <option name="METHOD_NAME" value="testFindTotal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest1.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest1" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -61,8 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest1.testFindTotal" />
+        <item itemvalue="JUnit.MybatisTest1.testFindName" />
+        <item itemvalue="JUnit.MybatisTest1.testDelete" />
         <item itemvalue="JUnit.MybatisTest1.testUpdate" />
-        <item itemvalue="JUnit.MybatisTest1" />
+        <item itemvalue="JUnit.MybatisTest1.testSave" />
       </list>
     </recent_temporary>
   </component>
@@ -88,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599185123836</updated>
-      <workItem from="1599185127456" duration="491000" />
+      <workItem from="1599185127456" duration="4014000" />
     </task>
     <servers />
   </component>
@@ -100,22 +152,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1599185279623" />
-    <state width="1396" height="218" key="GridCell.Tab.0.bottom" timestamp="1599185549691">
+    <state width="1396" height="218" key="GridCell.Tab.0.bottom" timestamp="1599189149241">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599185549691" />
-    <state width="1396" height="218" key="GridCell.Tab.0.center" timestamp="1599185549691">
+    <state width="1396" height="218" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599189149241" />
+    <state width="1396" height="218" key="GridCell.Tab.0.center" timestamp="1599189149241">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599185549691" />
-    <state width="1396" height="218" key="GridCell.Tab.0.left" timestamp="1599185549691">
+    <state width="1396" height="218" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599189149241" />
+    <state width="1396" height="218" key="GridCell.Tab.0.left" timestamp="1599189149241">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599185549691" />
-    <state width="1396" height="218" key="GridCell.Tab.0.right" timestamp="1599185549691">
+    <state width="1396" height="218" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599189149241" />
+    <state width="1396" height="218" key="GridCell.Tab.0.right" timestamp="1599189149241">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="218" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599185549691" />
+    <state width="1396" height="218" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599189149241" />
     <state x="250" y="84" key="Maven.ArtifactSearchDialog" timestamp="1599185235505">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
