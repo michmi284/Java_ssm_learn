@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd339660-bdb2-4ee5-af30-1631211410ad" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1h4dljrcbqSIKEwpYlbeDPbjH9p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="JUnit.TestAccountService.testDeleteAccount">
+    <configuration name="TestAccountService.testDeleteAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_01_ioc_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestAccountService" />
+      <option name="METHOD_NAME" value="testDeleteAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAccountService.testFindAccountById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_01_ioc_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestAccountService" />
+      <option name="METHOD_NAME" value="testFindAccountById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAccountService.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_01_ioc_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestAccountService" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAccountService.testSaveAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_01_ioc_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestAccountService" />
+      <option name="METHOD_NAME" value="testSaveAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAccountService.testUpdateAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_01_ioc_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestAccountService" />
+      <option name="METHOD_NAME" value="testUpdateAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestAccountService.testDeleteAccount" />
+        <item itemvalue="JUnit.TestAccountService.testUpdateAccount" />
+        <item itemvalue="JUnit.TestAccountService.testSaveAccount" />
+        <item itemvalue="JUnit.TestAccountService.testFindAccountById" />
+        <item itemvalue="JUnit.TestAccountService.testFindAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd339660-bdb2-4ee5-af30-1631211410ad" name="Default Changelist" comment="" />
+      <created>1599274450561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599274450561</updated>
+      <workItem from="1599274453733" duration="3110000" />
+      <workItem from="1599285768041" duration="5909000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="696" y="116" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1599276477870">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="696" y="116" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1440.860@0.0.1440.860" timestamp="1599276477870" />
+    <state x="885" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1599286064309">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="885" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1599286064309" />
+    <state width="660" height="270" key="GridCell.Tab.0.bottom" timestamp="1599294711679">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="660" height="270" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599294711679" />
+    <state width="660" height="270" key="GridCell.Tab.0.center" timestamp="1599294711679">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="660" height="270" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599294711679" />
+    <state width="660" height="270" key="GridCell.Tab.0.left" timestamp="1599294711679">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="660" height="270" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599294711679" />
+    <state width="660" height="270" key="GridCell.Tab.0.right" timestamp="1599294711679">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="660" height="270" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599294711679" />
+    <state width="660" height="270" key="GridCell.Tab.1.bottom" timestamp="1599294711679">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="660" height="270" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599294711679" />
+    <state width="660" height="270" key="GridCell.Tab.1.center" timestamp="1599294711679">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="660" height="270" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1599294711679" />
+    <state width="660" height="270" key="GridCell.Tab.1.left" timestamp="1599294711679">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="660" height="270" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1599294711679" />
+    <state width="660" height="270" key="GridCell.Tab.1.right" timestamp="1599294711679">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="660" height="270" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1599294711679" />
+    <state x="409" y="92" key="SettingsEditor" timestamp="1599286466756">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="409" y="92" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1599286466756" />
+    <state x="760" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1599285782542">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="760" y="252" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1599285782542" />
+    <state x="181" y="128" key="new project wizard" timestamp="1599289923202">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="181" y="128" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1599289923202" />
+    <state x="760" y="112" key="spring file set editor" timestamp="1599276642663">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="760" y="112" key="spring file set editor/0.0.1440.860@0.0.1440.860" timestamp="1599276642663" />
+  </component>
+</project>

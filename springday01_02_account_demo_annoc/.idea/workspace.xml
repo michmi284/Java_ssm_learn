@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec3476e9-5532-485d-b5ef-ab460103c6e9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1h598RgXIZLR5gApmhADZRrTx8M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SSM\Java_ssm_learn\springday01_02_account_demo_annoc\src\main\resources" />
+      <recent name="D:\SSM\Java_ssm_learn\springday01_02_account_demo_annoc\src\test" />
+      <recent name="D:\SSM\Java_ssm_learn\springday01_02_account_demo_annoc\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestAccountService">
+    <configuration name="TestAccountService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_02_account_demo_annoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestAccountService" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAccountService.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_02_account_demo_annoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestAccountService" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestAccountService" />
+        <item itemvalue="JUnit.TestAccountService.testFindAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec3476e9-5532-485d-b5ef-ab460103c6e9" name="Default Changelist" comment="" />
+      <created>1599289926441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599289926441</updated>
+      <workItem from="1599289930351" duration="3421000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1396" height="212" key="GridCell.Tab.0.bottom" timestamp="1599295403412">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="212" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599295403412" />
+    <state width="1396" height="212" key="GridCell.Tab.0.center" timestamp="1599295403412">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="212" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599295403412" />
+    <state width="1396" height="212" key="GridCell.Tab.0.left" timestamp="1599295403412">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="212" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599295403412" />
+    <state width="1396" height="212" key="GridCell.Tab.0.right" timestamp="1599295403412">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="212" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599295403412" />
+    <state x="389" y="112" key="spring file set editor" timestamp="1599294704495">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="389" y="112" key="spring file set editor/0.0.1440.860@0.0.1440.860" timestamp="1599294704495" />
+  </component>
+</project>
