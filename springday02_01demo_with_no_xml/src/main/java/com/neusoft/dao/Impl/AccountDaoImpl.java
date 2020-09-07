@@ -13,7 +13,7 @@ import java.util.List;
 
 
 @Repository()
-//@Repository("accounDao")
+//@Repository("accountDao")
 public class AccountDaoImpl  implements IAccountDao {
 
     @Autowired
@@ -59,7 +59,6 @@ public class AccountDaoImpl  implements IAccountDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
     }
 
     @Override
@@ -70,7 +69,5 @@ public class AccountDaoImpl  implements IAccountDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
-
     }
 }
