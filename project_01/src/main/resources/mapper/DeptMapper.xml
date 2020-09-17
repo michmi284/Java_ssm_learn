@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--  DeptMapper.xml   -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neusoft.domain.Dept">
+
+    <resultMap id="empByDept" type="com.neusoft.domain.Dept">
+        <id property="deptid" column="deptid"></id>
+        <collection property="les" ofType="com.neusoft.domain.Dept">
+            <id column="deptid" property="deptid"></id>
+            <result column="ename" property="ename"></result>
+        </collection>
+    </resultMap>
+    <select id="getEmpByDept">
+        SELECT
+            e.*, d.dname
+        FROM
+            emp e
+        INNER JOIN dept d ON e.deptid = d.deptid
+        WHERE
+            d.dname = '软开';
+    </select>
+
+
+</mapper>

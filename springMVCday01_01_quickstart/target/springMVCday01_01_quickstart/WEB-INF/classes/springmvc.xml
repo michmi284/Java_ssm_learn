@@ -11,15 +11,34 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
     <!--    扫包-->
-    <context:component-scan base-package="com.neusoft">
+    <!--    <context:component-scan base-package="com.neusoft">-->
 
-    </context:component-scan>
+    <!--    </context:component-scan>-->
+    <context:component-scan base-package="com.neusoft"></context:component-scan>
+
     <!--    视图解析器-->
+
     <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"></property>
         <property name="suffix" value=".jsp"></property>
     </bean>
 
+    <!--    配置//自定义类型转换器-->
+    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean class="com.neusoft.utils.StringToDateConverter"/>
+            </set>
+        </property>
+    </bean>
+
+
+    <mvc:annotation-driven conversion-service="conversionService"/>
+    <!--    <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">-->
+    <!--        <property name="prefix" value="/WEB-INF/pages/"></property>-->
+    <!--        <property name="suffix" value=".jsp"></property>-->
+    <!--    </bean>-->
+
     <!--开启spring注解支持-->
-    <mvc:annotation-driven/>
+    <!--    <mvc:annotation-driven/>-->
 </beans>

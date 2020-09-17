@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--  EmpMapper.xml   -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neusoft.domain.Emp">
+
+    <resultMap id="getEmpmo" type="com.neusoft.domain.Emp">
+        <id property="empid" column="empid"></id>
+        <result property="ename" column="ename"></result>
+        <association property="dept" javaType="com.neusoft.domain.Dept">
+            <id column="deptid" property="deptid"></id>
+            <result property="dname" column="dname"></result>
+        </association>
+    </resultMap>
+    <select id="getEmp" resultMap="com.neusoft.domain.Emp">
+        SELECT
+            e.*, d.*
+        FROM
+            emp e
+        INNER JOIN dept d ON e.deptid = d.deptid
+        WHERE
+            e.empid = 11;
+    </select>
+    <select id="login" resultType="com.neusoft.domain.Emp">
+        SELECT
+            *
+        FROM
+            emp
+        WHERE
+            empid = 1
+    </select>
+
+    <select id="getEmp" resultType="com.neusoft.domain.Emp">
+        SELECT * FROM `Emp` e  where  e.empid = 1
+    </select>
+
+    <insert id="insertEmp" parameterType="com.neusoft.domain.Emp">
+        insert into Emp (ename,hiredate,logid,logpwd,mgrid) values (#{ename},#{hiredate},#{logid},#{logpwd},#{mgrid})
+    </insert>
+
+    <update id="updateEmp" parameterType="com.neusoft.domain.Emp">
+        update Emp set ename=#{ename},hiredate=#{hiredate},logid=#{logid},logpwd=#{logpwd},mgrid=#{mgrid} where empid=#{empid}
+    </update>
+
+    <delete id="deleteEmp" parameterType="com.neusoft.domain.Emp">
+        delete from Emp where empid = #{empid}
+    </delete>
+
+
+</mapper>

@@ -29,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatisday01_03_dao_crud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.18625" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -164,6 +164,9 @@
       <workItem from="1599103042346" duration="1635000" />
       <workItem from="1599113178464" duration="9499000" />
       <workItem from="1599179372350" duration="5731000" />
+      <workItem from="1599719826743" duration="21000" />
+      <workItem from="1599725569333" duration="591000" />
+      <workItem from="1599726788596" duration="26000" />
     </task>
     <servers />
   </component>
